@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :producers
-  resources :riddims
+  resources :beat_makers do
+    resources :riddims
+  end
+  devise_for :users
+  # devise_for :producers
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
