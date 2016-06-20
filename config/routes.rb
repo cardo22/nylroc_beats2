@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   authenticated do
-    root :to =>'dash_board#home' as: :authenticated
+    root :to => 'dash_board#home', as: :authenticated
   end
   root :to => 'dash_board#user_home'
   resources :beat_makers do
