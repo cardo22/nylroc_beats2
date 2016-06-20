@@ -1,3 +1,3 @@
 class Riddim < ActiveRecord::Base
-	belongs_to :producers
+	belongs_to :beat_makers
 end
