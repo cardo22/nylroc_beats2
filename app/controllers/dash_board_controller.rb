@@ -1,5 +1,5 @@
 class DashBoardController < ApplicationController
-	def home
+	def user_home
 		render 'home'
 	end
 end
