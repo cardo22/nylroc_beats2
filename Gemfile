@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6'
 # Using devise for authentication and user log in
 gem 'devise'
+#using twitter bootstrap framework
+gem "twitter-bootstrap-rails"
+#using fontawsome glificons
+gem "font-awesome-rails"
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
