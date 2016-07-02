@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-
+#amazon web services for deploying the app
+gem 'aws-sdk', '~> 2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Using devise for authentication and user log in
