@@ -1,6 +1,51 @@
 // Place all the styles related to the dash_board controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font: 20px Tahoma;
+}
+
+body {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+
+/* menu base styles */
+
+.nav-row-wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+/* flex styles */
+
+@media screen and (min-width: 768px) {
+
+	nav ul {
+		display: flex;
+	}
+
+	nav li {
+		flex: 1 1 0;
+	}
+}
+
+/* -------------------------------- */
 
 .navbar-inverse {
 	position: fixed;
@@ -11,3 +56,7 @@
 	border-radius: 0px;
 }
 
+.home-logo {
+	height: 50px;
+	width: 50px;
+}
