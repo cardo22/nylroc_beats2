@@ -58,7 +58,6 @@ nav a:hover {
 .navbar-form {
 	position: relative;
     left: 370px;
-    top: 10px;
 }
 
 .navbar-inverse {
@@ -73,14 +72,16 @@ nav a:hover {
 }
 
 .home-logo {
+	position: relative;
+    bottom: 15px;
 	height: 50px;
-	width: 50px;
+	width: 120px;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
 	background-color: transparent;
-	position: relative;
-    top: 12px;
+	// position: relative;
+ //    top: 0px;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
