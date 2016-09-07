@@ -3,4 +3,5 @@ class Riddim < ActiveRecord::Base
 
 	validates :name, presence: true
 	validates :duration, presence: true
+	validates :snippet, presence: true
 end
