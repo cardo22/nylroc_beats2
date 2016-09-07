@@ -55,16 +55,40 @@ nav a:hover {
 
 /* -------------------------------- */
 
+.navbar-form {
+	position: relative;
+    left: 370px;
+    top: 10px;
+}
+
 .navbar-inverse {
 	position: fixed;
-	top: 0px;
+	top: 5px;
 	left: 0px;
 	z-index: 999;
 	width: 100%;
 	border-radius: 0px;
+	background-color: rgba(75, 79, 87, 0.98);
+	border-color: rgba(75, 79, 87, 0.98);
 }
 
 .home-logo {
 	height: 50px;
 	width: 50px;
 }
+
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: transparent;
+	position: relative;
+    top: 12px;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+}
+
+
+
+
+
+
