@@ -14,6 +14,7 @@ body {
 	width: 100%;
 	display: -webkit-box;
 	-webkit-box-pack: center;
+	background-color: white;
 }
 
 /* menu base styles */
@@ -87,6 +88,50 @@ nav a:hover {
 .navbar-inverse .navbar-nav>.active>a:hover {
 	background-color: transparent;
 }
+
+/* dashboard css */
+
+// .home-body-container {
+// 	padding: 5px;
+// 	border-radius: 5px;
+// 	border-color: black;
+// }
+
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.box {
+	height: 100px;
+	min-width: 100px;
+}
+
+.body-row {
+	margin-top: 57px;
+}
+.one {
+	background: red;
+	height: 200px;
+}
+
+.two {
+	background: blue;
+	height: 200px;
+}
+
+.three {
+	background: green;
+	height: 200px;
+}
+
+
+
 
 
 
