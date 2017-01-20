@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     root :to => 'dash_board#home', as: :authenticated
   end
   root :to => 'dash_board#user_home'
-  resources :beat_makers do
+  resources :users do
     resources :riddims
   end
   devise_for :users
