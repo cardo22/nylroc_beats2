@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root :to => 'dash_board#user_home'
   resources :users do
     resources :riddims
+    resources :live_videos
   end
   devise_for :users
   # devise_for :producers

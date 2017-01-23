@@ -1,0 +1,2 @@
+class LiveVideosController < ApplicationController
+end
