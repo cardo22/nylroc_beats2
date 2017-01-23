@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :likes
+  resources :comments
   authenticated do
     root :to => 'dash_board#home', as: :authenticated
   end
